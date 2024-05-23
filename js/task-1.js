@@ -1,4 +1,4 @@
-makeTransaction(quantity, pricePerDroid, customerCredits):
+def makeTransaction(quantity, pricePerDroid, customerCredits):
     totalPrice = quantity * pricePerDroid
 
     if totalPrice > customerCredits:
