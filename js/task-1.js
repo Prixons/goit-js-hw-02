@@ -1,4 +1,4 @@
-def makeTransaction(quantity, pricePerDroid, customerCredits):
+makeTransaction(quantity, pricePerDroid, customerCredits):
     # Обчислюємо загальну вартість замовлення
     totalPrice = quantity * pricePerDroid
     
